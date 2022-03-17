@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test to DcScreen component Snapshot to DcScreen component 1`] = `
+<Fragment>
+  <h1>
+    DC Screen
+  </h1>
+  <hr />
+  <HeroList
+    publisher="DC Comics"
+  />
+</Fragment>
+`;

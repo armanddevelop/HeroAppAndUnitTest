@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in Hero component Snapshot to Hero component  without hero params 1`] = `
+<h1>
+  No Hero
+</h1>
+`;
+
+exports[`Test in Hero component Snapshot to Hero component with hero params 1`] = `
+<div
+  className="row-mt-5"
+>
+  <h1>
+    Bruce Wayne
+  </h1>
+  <div
+    className="col-4"
+  >
+    <img
+      alt="Batman"
+      className="img-thumbnail animate__animated animate__fadeInLeft"
+      src="/assets/heroes/dc-batman.jpg"
+    />
+  </div>
+  <div
+    className="col-8 animate__animated animate__fadeIn"
+  >
+    <h3>
+      Batman
+    </h3>
+    <ul
+      className="list-group list-group-flush"
+    >
+      <li
+        className="list-group-item"
+      >
+        <b>
+          Aleter ego:
+        </b>
+         
+        Bruce Wayne
+      </li>
+      <li
+        className="list-group-item"
+      >
+        <b>
+          Bio:
+        </b>
+        <p>
+          Batman es un personaje de cómic creado por los estadounidenses Bob Kane y Bill Finger, ​ y propiedad de DC Comics. Apareció por primera vez en la historia titulada «El caso del sindicato químico» de la revista Detective Comics N.º 27, lanzada por la editorial National Publications el 30 de marzo de 1939
+        </p>
+      </li>
+      <li
+        className="list-group-item"
+      >
+        <b>
+          Publisher:
+        </b>
+        <p>
+          DC Comics
+        </p>
+      </li>
+      <li
+        className="list-group-item"
+      >
+        <b>
+          First Appearence:
+        </b>
+        <p>
+          Detective Comics #27
+        </p>
+      </li>
+    </ul>
+    <h5
+      className="mt-3"
+    >
+      Characters
+    </h5>
+    <p>
+      Bruce Wayne
+    </p>
+    <button
+      className="btn btn-outline-info"
+      onClick={[Function]}
+    >
+      Return
+    </button>
+  </div>
+</div>
+`;
