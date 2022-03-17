@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-
+const herosImages = require.context("../../assets/heros", true);
 export const HeroCard = ({
   id,
   superhero,
@@ -9,7 +9,7 @@ export const HeroCard = ({
   first_appearance,
   characters,
 }) => {
-  const imgPath = `/assets/heroes/${id}.jpg`;
+  const imgPath = herosImages(`./${id}.jpg`);
   return (
     <div className="col animate__animated animate__fadeIn">
       <div className="card">
